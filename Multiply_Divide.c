@@ -6,8 +6,8 @@ void multiply(int a, int b){
     printf(a);
     printf(" times ");
     printf(b);
-    print(" equals ";
-    print(c);
-    print("\n");
+    printf(" equals ";
+    printf(c);
+    printf("\n");
     return;
 }
