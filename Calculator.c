@@ -14,11 +14,11 @@ void multiply(int a, int b);
 
 int main()
 {
-    printf("numbers: 5 and 4")
+    printf("numbers: 5 and 4\n");
     int a = subtract(5,4);
-    printf(a);
-    printf("\n%d",b);
+    printf("%d",a);
     int b = add(5,4);
+    printf("\n%d\n",b);
     multiply(5,4);
 
     return 0;
