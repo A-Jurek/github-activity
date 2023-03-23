@@ -8,13 +8,16 @@ Welcome to GDB Online.
 *******************************************************************************/
 #include <stdio.h>
 
-void myfunction();
-void myfunction2();
+void subtract(int a, int b);
+void add(int a, int b);
+void multiply(int a, int b);
 
 int main()
 {
-    myfunction();
-    myfunction2();
+    printf("numbers: 5 and 4")
+    subtract(5,4);
+    add(5,4);
+    multiply(5,4);
 
     return 0;
 }
