@@ -1,5 +1,13 @@
 #include <stdio.h>
 
-void myfunction2(){
-    printf("this is source 2\n");
+void multiply(int a, int b){
+    int c;
+    c = a * b;
+    printf(a);
+    printf(" times ");
+    printf(b);
+    print(" equals ";
+    print(c);
+    print("\n");
+    return;
 }
