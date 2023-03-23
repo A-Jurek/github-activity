@@ -8,15 +8,17 @@ Welcome to GDB Online.
 *******************************************************************************/
 #include <stdio.h>
 
-void subtract(int a, int b);
-void add(int a, int b);
+int subtract(int a, int b);
+int add(int a, int b);
 void multiply(int a, int b);
 
 int main()
 {
     printf("numbers: 5 and 4")
-    subtract(5,4);
-    add(5,4);
+    int a = subtract(5,4);
+    printf(a);
+    printf("\n%d",b);
+    int b = add(5,4);
     multiply(5,4);
 
     return 0;
