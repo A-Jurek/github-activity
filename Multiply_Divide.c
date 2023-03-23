@@ -3,11 +3,11 @@
 void multiply(int a, int b){
     int c;
     c = a * b;
-    printf(a);
+    printf("%d",a);
     printf(" times ");
-    printf(b);
+    printf("%d",b);
     printf(" equals ";
-    printf(c);
+    printf("%d",c);
     printf("\n");
     return;
 }
